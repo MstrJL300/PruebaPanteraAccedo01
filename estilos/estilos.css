@@ -37,6 +37,7 @@ body {
 
 .input_texto_1{
     background-color: rgb(118, 118, 118);
+    border: 1px solid rgb(118, 118, 118);
     color: white;
     font-family: 'Franklin Gothic';
     font-size: 14px;
@@ -56,7 +57,7 @@ body {
 .caja_1-1{ /* Se esconde la barra de opciones hasta que se haga click en la caja de input */
     display:table;
     background-color: rgb(118, 118, 118);
-    border:1px solid rgb(148, 148, 148);
+    border:1px solid rgb(118, 118, 118);
     visibility: hidden;
     width: 110px;
     height: 20px;
@@ -103,6 +104,7 @@ MODAL - CANVAS
 
 .input_texto_2{
     background-color: rgb(118, 118, 118);
+    border: 1px solid rgb(118, 118, 118);
     color: white;
     font-family: 'Franklin Gothic';
     font-size: 14px;
@@ -127,12 +129,24 @@ MODAL - CANVAS
     height: 25.2px;
 } */
 
+/* - - - - - - - - - - 
+SECCION DE COMENTARIOS
+ - - - - - - - - - - - */
 .caja_2{
     background-color: rgb(65, 65, 65);
     padding: 10px;
     border-radius: 10px;
     width: 600px;
     margin-top: 20px;
+}
+
+.table_data_1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.table_data_2{
+    padding-left: 5px;
 }
 
 /* .caja_1-2{
