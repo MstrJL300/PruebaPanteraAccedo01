@@ -2,14 +2,19 @@
 var modal = document.getElementById("myModal");
 
 // Get the button that opens the modal
-var btn = document.getElementById("lista_modal_btn");
+// var btn = document.getElementById("lista_modal_btn");
+var btn = document.getElementById("opcion_1");
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
+//TEMP
+// OpenModal()
+
 // When the user clicks on the button, open the modal
-btn.onclick = function () {
-    //Cargar_Inf_Per()
+btn.onclick = OpenModal
+
+function OpenModal(){
     modal.style.display = "block";
 }
 
