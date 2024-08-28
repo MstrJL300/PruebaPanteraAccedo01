@@ -8,6 +8,8 @@ var btn = document.getElementById("opcion_1");
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
+var post_btn_2 = document.getElementById("post_btn_2")
+
 //TEMP
 // OpenModal()
 
@@ -20,12 +22,21 @@ function OpenModal(){
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function () {
-    modal.style.display = "none";
+    CerrarModal()
 }
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function (event) {
     if (event.target == modal) {
-        modal.style.display = "none";
+        CerrarModal()
     }
+}
+
+post_btn_2.onclick = function () {
+    PostComment_2()
+    CerrarModal()
+}
+
+function CerrarModal(){
+    modal.style.display = "none";
 }
